@@ -28,7 +28,6 @@ from holdings_tab_utils import get_position_weightings, display_position_info, g
 from analysis_tab_utils import get_earnings_trend_data, display_earnings_trend_data
 from option_tab_utils import display_option_chain
 from stock_tickers import stock_options
-from st_keyup import st_keyup
 
 def get_stock_info(symbol):
     stock = yf.Ticker(symbol)
