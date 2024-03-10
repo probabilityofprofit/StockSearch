@@ -731,7 +731,7 @@ def main():
                 # Percent Change of symbol
                 bgcolor = "green" if percentage_change >= 0 else "red"
                 fig.add_annotation(
-                    text=f'({selected_option}) {symbol} {stock_data['Close'].iloc[-1]:.2f} {percentage_change:.2f}%',
+                    text=f'({selected_option}) {symbol} {stock_data["Close"].iloc[-1]:.2f} {percentage_change:.2f}%',
                     xref='paper', yref='paper',
                     x=0.00, y=1.20,
                     showarrow=False,
